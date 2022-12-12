@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400&family=Nunito+Sans:ital,wght@0,300;1,200&family=Roboto:ital,wght@0,300;1,300&family=Space+Grotesk:wght@300;400&display=swap');
+
+body{
+    background: #EDEBE9;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    background:  #EDEBE9;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background:  #2146E8;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    color: #EDEBE9;
+    border-bottom: solid 5px #EDEBE9;
+    margin-bottom: 20px;
+
+}
+.input{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    color: #EDEBE9;
+}
+.input input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size:  1.5rem;
+    text-align: center;
+    background: #EDEBE9;
+    color: #040A25;
+    
+    
+
+}
+ label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #EDEBE9;
+    
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: #0C1E6E;
+    color:#EDEBE9;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px black;
+    cursor: pointer;
+    border: none;
+  
+}
+
+.result {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size:1.5rem;
+    font-style: italic;
+    box-shadow: 0 0 10px black;
+    background: #EDEBE9;
+    color: #040A25;
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+
+}
