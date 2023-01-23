@@ -15,4 +15,4 @@
 
 <img src="assets/calculadora (2).gif"/>
  
-- [Acesse o projeto finalizado, online]()
+- [Acesse o projeto finalizado, online](https://lucasbizachi.github.io/calculadora-imc/)
